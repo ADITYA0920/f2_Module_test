@@ -1,0 +1,71 @@
+*{
+    margin : 8px ;
+    font-family: 'Raleway', sans-serif;
+}
+.main{
+    border: 2px solid orange;
+}
+.header{
+    border :1px solid red ;
+    background-color: orange;
+    color: white;
+    
+}
+.header h2{
+    size: 18px;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    border: 2px solid purple;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.left{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    height: 500px;
+    width: 400px;
+
+}
+.box2{
+    height: 500px;
+    width: 700px;
+}
+
+.thankU{
+    size : 25px;
+    text-align: center;
+}
+.btn{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    /* transition: 0.5s; */
+}
+.btn :hover{
+    cursor: pointer;
+    transform : scaleX(1.1)  scaleY(1.1) ;
+    border: 2ps solid greenyellow;
+}
+.right{
+    border : 2px solid  rgb(202, 111, 202);
+    overflow : auto ;
+}
+.mini :hover{
+    cursor: pointer;
+    transform: scaleX(1.1) scaleY(1.1)}
+.mini img{
+    height: 70px;
+    width: 70;
+    border-radius: 5px;
+}

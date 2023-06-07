@@ -69,3 +69,10 @@
     width: 70;
     border-radius: 5px;
 }
+
+@media (max-width: 840px){
+    .body{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
